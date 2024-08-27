@@ -1,3 +1,5 @@
+import Teoria from "./Teoria";
+
 const Informacion = () => {
   // AQUI AGREGO LA MAYOR PARTE DE LOGICA
 
@@ -13,6 +15,8 @@ const Informacion = () => {
         dinámicas y reactivas de forma modular, lo que facilita el desarrollo y
         el mantenimiento de aplicaciones a gran escala.
       </p>
+      {/*enviar informacion */}
+        <Teoria comision='comision 101i'/>
     </section>
   );
 };
